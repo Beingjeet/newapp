@@ -17,7 +17,7 @@
 <button onclick="sendMessage()">Send</button>
 
 <script>
-    const ws = new WebSocket("ws://newapp-wag6.onrender.com/ws");
+    const ws = new WebSocket("wss://newapp-wag6.onrender.com/ws");
     const chat = document.getElementById("chat");
 
     ws.onmessage = function(event) {
@@ -58,3 +58,4 @@
 </body>
 
 </html>
+
